@@ -1,0 +1,7 @@
+string_in = input("Enter string to write in file: ")
+file = open("testText.txt", "w")
+file.write(string_in)
+file.close()
+file = open("testText.txt", "r")
+print(file.read())
+file.close()
