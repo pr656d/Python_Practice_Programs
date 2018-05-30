@@ -5,6 +5,7 @@
 while True:
     line = str(input("> "))
     if line[0] == '#':
+        print(line[1:])
         continue
     if line == 'done':
         break

@@ -25,7 +25,7 @@ print("my_set:", my_set, "\n" +
       "default_set :", default_set)
 print()
 
-print("--> Enter anything which exist in set.")
+print("--> Enter anything which exist or not in set.")
 delete = int(input("Enter something to delete using discard: "))
 my_set.discard(delete)
 default_set.discard(delete)

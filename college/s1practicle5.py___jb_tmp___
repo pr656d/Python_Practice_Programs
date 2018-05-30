@@ -1,0 +1,8 @@
+# WAP to convert distance from centimeter to meter, km, feet, inches.
+
+cen = input("Centimeter: ")
+
+meter = cen / 100
+km = cen / 100000
+feet = meter * 3.28084
+inches =  cen * 0.3937

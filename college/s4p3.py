@@ -8,4 +8,5 @@ def sum(numbers):
     return sum
 
 in_numbers = [float(x) for x in input("numbers split by space\n-> ").split()]
+print(in_numbers)
 print(sum(in_numbers))

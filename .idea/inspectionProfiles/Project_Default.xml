@@ -8,5 +8,12 @@
         </list>
       </option>
     </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="college.s4p6.s4p6weekly" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>
